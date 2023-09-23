@@ -85,11 +85,6 @@ parser.add_argument('--classes', nargs='+', default=[16, 17], type=int, help='fi
 
 Can be saved to `inference/output` by 
 
-```bash
-python3 track.py --source ... --save-txt
-```
-
-
 ## Cite
 
 If you find this project useful in your research, please consider cite:
@@ -102,9 +97,3 @@ If you find this project useful in your research, please consider cite:
     year={2020}
 }
 ```
-
-
-## Other information
-
-For more detailed information about the algorithms and their corresponding lisences used in this project access their official github implementations.
-
